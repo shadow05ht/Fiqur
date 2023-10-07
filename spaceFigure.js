@@ -6,7 +6,7 @@ function myFunctionp(){
     let Sy = P*l;
     let St =Sy + 2*So;
     let netice = "Oturacaginin perimetri " + P + " m , uzunlugu " + l + " m  ve oturacagin sahesi ise " + So + " m^2 olan prizmanin hecmi " + V + ' m^3, yan sethinin sahesi ' + Sy + ' m^2, ve tam sethinin sahesi ise ' + St + ' m^2-dir.'
-    document.getElementById("silindr").innerHTML = netice
+    document.getElementById("prizma").innerHTML = netice
 }
 function myFunctions(){
     let pi = +prompt("Pi:");
