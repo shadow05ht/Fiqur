@@ -1,9 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
-    background-color: #222222;
+    background-color: black;
 }
 
 .figure {
-    background-color: #222222;
+    background-color: black;
     height: 100px;
     width: 300px;
     margin: auto;
@@ -26,16 +31,16 @@ body {
 }
 
 .one {
-    margin: 150px;
+    margin: 70px;
 }
 
 .two {
-    margin: 150px;
+    margin: 70px;
     margin-top: 200px;
 }
 
 .three {
-    margin: 150px;
+    margin: 70px;
     margin-top: 200px;
 }
 
@@ -48,22 +53,20 @@ h1 {
 ::selection {
     color: gold;
 }
-.footer{
+
+.footer {
     line-height: 30px;
-    bottom:0;
+    bottom: 0;
     width: 100%;
-    position:fixed;
+    position: fixed;
     text-align: center;
     background-color: orange;
 }
-.h5{
+
+.h5 {
     color: black;
 }
-.h1{
-    position: fixed;
-    line-height: 40px;
-    top: 0;
-    background-color: orange;
-    color:black;
-    width: 100%;
+
+.tool {
+    margin-bottom: 50px;
 }
